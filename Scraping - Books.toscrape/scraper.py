@@ -1,10 +1,9 @@
-# DATOS QUE HAY QUE EXTRAER:
+# Data to extract:
 
-# - Categoría
-# - Titulo del libro
-# - Precio del libro
-# - Stock disponible
-# - Valoración
+# - Title
+# - Price
+# - Stock
+# - Rate
 
 # -------------------------------------------------------------------------------
 
@@ -48,4 +47,5 @@ for book in books_content:
     })
 
 for book in books:
+
     print(book, '\n')
